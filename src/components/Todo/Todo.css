@@ -1,0 +1,47 @@
+
+.todos {
+ 
+    background-color: rgb(110, 178, 238);
+    padding: 40px;
+margin: 20px;
+font-size: 20px;
+}
+.todos .container .form_add{
+    display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+align-items: center;
+}
+.todos .container .filter{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+   gap: 20px;
+align-items: center;
+}
+.btu {
+    border: 0;
+    color: rgb(62, 63, 63);
+    background-color: rgb(208, 229, 248); 
+    padding: 10px;
+border-radius: 7px;
+border: 1px solid black;
+
+}
+.form_search_bar {
+    display: flex;
+}
+.form_search_bar,.drop_list {
+    height: 50px;
+border-radius: 7px;
+
+}
+
+.drop_list {
+    max-width: 150px;
+}
+
+.submit {
+   border-radius: 0%;
+}
+
