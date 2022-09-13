@@ -24,7 +24,7 @@ export default function Setting(props) {
 useEffect(()=>{
     console.log('Mohammad')
     setItem(item)
-    },[])
+    },[item])
 
     return(
         <div>

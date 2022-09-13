@@ -1,11 +1,9 @@
-import { useState,useContext,useEffect } from "react";
+import { useContext} from "react";
 import { SettingsContext } from "../../Context/Context";
 import './Tasks.css'
 
-import {Form,Button} from 'react-bootstrap';
 function Tasks(){
-    let {item,setComplete,setItem,complete,setTodoToShow,todoToShow} = useContext(SettingsContext)
-const [todo,setTodo] = useState('')
+    let {item,setItem,todoToShow} = useContext(SettingsContext)
 
 function handleTrueFalse (ele){
  if(ele.complete === 'false'){

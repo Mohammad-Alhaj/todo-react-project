@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
  import Setting from './Context/Context';
  import Todo from './components/Todo/Todo';

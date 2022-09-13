@@ -1,8 +1,8 @@
-import { useState,useContext ,useEffect} from "react";
+import { useState,useContext } from "react";
 import { SettingsContext } from "../../Context/Context";
 import shortid from "shortid";
 import Tasks from "./Tasks.Todo";
-import {Button,Form, ListGroup} from 'react-bootstrap';
+import {Form} from 'react-bootstrap';
 import './Todo.css'
 
 function Todo(){
@@ -40,7 +40,7 @@ e.preventDefault()
 setItem([])
 }
 const handleAllComplete = (e)=>{
-    let status = 'true'
+
 
      item.forEach(ele=> {
         ele.complete === 'true'?ele.complete='false':ele.complete='true'
